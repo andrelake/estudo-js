@@ -1,3 +1,31 @@
+function clicar() {
+    document.getElementById("texto").innerHTML = "<b>Cliquei no botão</b>"
+    //alert("Cliquei")
+}
+
+function redirecionar() {
+    //window.open("https://www.uol.com.br/")
+    window.location.href = "https://www.uol.com.br/"
+}
+
+function trocar(elemento) {
+    elemento.innerHTML = "Boaaa!"
+    //document.getElementById("mouse").innerHTML = "Boaaa!"
+    //alert("Passei o mouse por cima")
+}
+
+function voltar(elemento) {
+    elemento.innerHTML = "Opa!"
+    //document.getElementById("mouse").innerHTML = "Opa!"
+}
+
+function load() {
+    alert("aeeee")
+}
+
+function change(elemento) {
+    console.log(elemento.value)
+}
 //var nome = "Isaac Newton"
 
 //alert("teste de alert");
@@ -46,7 +74,11 @@ for(var i=0; i<5; i++) {
 }
 */
 //-----------------------------------------------------------------
+/*
 var date = new Date()
 
 console.log(date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear())
 console.log(date)
+*/
+//-----------------------------------------------------------------
+
